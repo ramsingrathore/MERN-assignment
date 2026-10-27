@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register for Tech Club events">
+    <title>Register - Tech Club</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="register.html">Register</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Tech Club Registration</h1>
+    <p>Fill out the form to join our college Tech Club.</p>
+
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <p>Areas of Interest:</p>
+        <input type="checkbox" id="web" name="interest" value="Web Development">
+        <label for="web">Web Development</label>
+
+        <input type="checkbox" id="dsa" name="interest" value="DSA">
+        <label for="dsa">DSA</label>
+        <br><br>
+
+        <label for="branch">Choose Branch:</label>
+        <select id="branch" name="branch">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+        </select>
+        <br><br>
+
+        <label for="reason">Why do you want to join?</label>
+        <br>
+        <textarea id="reason" name="reason" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Register Now">
+    </form>
+
+    <h2>Upcoming Tech Events</h2>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Web Development Workshop</td>
+                <td>15 November</td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <td>College Coding Challenge</td>
+                <td>22 November</td>
+                <td>Seminar Hall</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Events: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
