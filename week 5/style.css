@@ -62,4 +62,38 @@
       padding: 10px 18px;
       border-radius: 5px;
     }
- 
+:root {
+  --primary: #315bea;
+  --page-bg: #eef2ff;
+  --text: #27324b;
+  --card-bg: #ffffff;
+  --spacing: 15px;
+}
+
+body {
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  margin: var(--spacing);
+  line-height: 1.6;
+}
+
+#hero {
+  background: var(--primary);
+  color: white;
+  text-align: center;
+  padding: 22px;
+  border-radius: 12px;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: var(--spacing);
+  margin-top: 14px;
+  border-radius: 12px;
+}
+
+th, button {
+  background: var(--primary);
+  color: white;
+}
