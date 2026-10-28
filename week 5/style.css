@@ -1,15 +1,23 @@
     body {
       background: #eef2ff;
       color: #27324b;
-      font-family: Georgia, serif;
+      font-family: 'Poppins' , sans-serif;
       margin: 15px;
+      font-size: 16px;
+      line-height: 1.6;
     }
 
     *{
       box-sizing: border-box;
     }
       h1{
-        font-size: 32px;
+        font-size: 36px;
+        font-weight: 700;
+
+      }
+
+      h2{
+          font-size: 22px;
       }
     #hero {
       background: #315bea;
