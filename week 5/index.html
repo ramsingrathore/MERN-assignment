@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Tech Club. Explore events and register for activities.">
+    <meta name="keywords" content="Tech Club, web development, events">
+    <meta name="author" content="Tech Club">
+
+    <title>Tech Club | Student Regirtration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header id="hero">
+    <h1>Tech Club</h1>
+    <P>Learn. Code. Gow.</P>
+</header>
+    <section class="card">
+        <h2>Upcoming Events</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Tech Clubs</th>
+            </tr>
+            <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML Workshop</td>
+                <td>5 Nov</td>
+                <td> Lab 1</td>
+            </tr>
+            <tr>
+                <td>Hackathon</td>
+                <td>6 Nov</td>
+                <td>Seminar Hall</td>
+
+            </tr>
+            <tr>
+                <td>Robotics</td>
+                <td>8 Nov</td>
+                <td>Computer Lab</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Events:03</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </section>
+
+      <section class="card">
+    <h2>Student Registration</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="Male"> Male
+        <input type="radio" name="gender" id="female" value="Female"> Female
+        <br><br>
+        <!--SECOHD METHOD-->
+        <!--<P>Gender:</P>
+        <label>
+            <input type="radio" id="male" name="gender" value="Male">
+            Male</label>
+        <label>
+            <input type="radio" id="female" name="gender" value="Female">
+            Female</label> -->
+
+        <label>Interests:</label>
+        <input type="checkbox" id="web development" name="interest" value="web development"> Web Development
+        <input type="checkbox" id="DSA" name="interest" value="DSA"> DSA
+        <br><br>
+
+        <label>Select Event:</label>
+        <select name="event" id="event">
+            <option value="HTML workshop">HTML Workshop</option>
+            <option value="hackathon">Hackathon</option>
+            <option value="robotics">Robotics</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" rows="4" cols="30"></textarea>
+        <br><br>
+
+
+        <button type="submit">Register</button>
+    </form>
+    </section>
+    <section class="card">
+        <h2>Why I choose these colours</h2>
+        <p>1. Blue gives the tech club a professional and mordern look. </p>
+        <p>2. Light blue creates a calm background for the page.</p>
+        <p>3. White cards make the conent clean and easy to read .</p>
+
+    </section>
+
+</body>
+
+</html>
