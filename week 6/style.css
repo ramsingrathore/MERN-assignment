@@ -1,3 +1,17 @@
+ 
+* {
+  box-sizing:border-box;
+} 
+ 
+body {
+   margin: 0;
+   padding: 20px;
+     font-family: Arial, sans-serif;
+     background-color: #eef2f8;
+}  
+ 
+ 
+ 
  .profiles {
   padding: 1px;
 }
@@ -6,35 +20,35 @@
   width: 300px;
   height: 235px;
   margin: 20px auto;
-  padding: 15px;
+  padding: 20px;
   background: white;
   border: 2px solid #4169e1;
-  border-radius: 14px;
+  border-radius: 16px;
   text-align: center;
 }
 
 .avatar {
-  width: 66px;
-  height: 66px;
-  margin: 0 auto 10px;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 12px;
   border-radius: 50%;
   background: #315bea;
   color: white;
-  font-size: 28px;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.profile-card h2 {
-  margin: 8px 0;
+.profile-card h2  {
+  margin: 10px 0;
   font-size: 20px;
 }
 
 .role {
   margin: 10px 0;
-  font-size: 13px;
-  color: #444444;
+  font-size: 14px;
+  color: #444;
 
 }
 
