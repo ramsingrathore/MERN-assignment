@@ -1,0 +1,137 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #14213d;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.logo {
+    margin: 0 0 6px;
+    font-size: 22px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+/* Hero section: mobile first */
+.hero {
+    background-color: #315bea;
+    color: white;
+    text-align: center;
+    padding: 24px 12px;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin: 0 auto 6px;
+    max-width: 300px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin: 0 0 16px;
+}
+
+.hero-image {
+    background-color: #a2b7f2;
+    color: #14213d;
+    height: 90px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Features: mobile layout */
+.features {
+    padding: 12px;
+}
+
+.card {
+    background-color: #eef2ff;
+    text-align: center;
+    padding: 16px 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.card h3,
+.card p {
+    margin: 2px;
+}
+
+/* Tablet: 768px and above */
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .hero {
+        padding: 32px 24px;
+    }
+
+    .hero-image {
+        max-width: 500px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .features {
+        display: flex;
+        gap: 12px;
+    }
+
+    .card {
+        flex: 1;
+    }
+}
+
+/* Laptop: 1024px and above */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        padding: 40px 24px;
+    }
+
+    .hero h1 {
+        max-width: none;
+        font-size: 30px;
+    }
+
+    .hero-image {
+        max-width: 600px;
+        height: 180px;
+    }
+
+    .features {
+        padding: 20px;
+    }
+}
