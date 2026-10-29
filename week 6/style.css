@@ -49,3 +49,29 @@
   margin-top: 10px;
   line-height: 1.4;
 }
+.top-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 15px;
+  background-color: #1b2a49;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.add-button {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 200;
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffc928;
+  color: #1b2a49;
+  font-size: 32px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px #00000030;
+}
