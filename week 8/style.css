@@ -45,6 +45,11 @@ body {
     grid-area: main;
     background: #ffffff;
     padding: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    align-content: start;
 }
 
 .footer {
@@ -52,4 +57,26 @@ body {
     background: #071c47;
     color: white;
     padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 90px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.card h3 {
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 18px;
 }
